@@ -41,6 +41,7 @@ class _DescriptionPageState extends State<DescriptionPage> {
           child: Column(
             children: [
               Image.network(widget.box.imagePath),
+              const SizedBox(height: kdouble20),
               Wrap(
                 spacing: kdouble10,
                 children: [
@@ -78,6 +79,7 @@ class _DescriptionPageState extends State<DescriptionPage> {
                   ),
                 ],
               ),
+              const SizedBox(height: kdouble20),
               FittedBox(
                 child: Text(
                   widget.box.title,
