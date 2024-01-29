@@ -46,6 +46,40 @@ class HomePage extends StatelessWidget {
                 imagePath: 'images/yeah.png',
               ),
             ),
+            CardWidget(
+              box: ItemClass(
+                title: 'Social Meadia',
+                imagePath: 'images/socials.png',
+              ),
+            ),
+            Row(
+              children: [
+                Expanded(
+                  child: CardWidget(
+                    box: ItemClass(
+                      title: 'Door',
+                      imagePath: 'images/door.png',
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: CardWidget(
+                    box: ItemClass(
+                      title: 'App',
+                      imagePath: 'images/app.png',
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: CardWidget(
+                    box: ItemClass(
+                      title: 'Cactus',
+                      imagePath: 'images/cactus.png',
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ],
         ),
       ),
