@@ -25,8 +25,8 @@ class _DescriptionPageState extends State<DescriptionPage> {
           IconButton(
             onPressed: () {
               ScaffoldMessenger.of(context).showSnackBar(
-                const SnackBar(
-                  content: Text('SnackBarrrr'),
+                SnackBar(
+                  content: Text('This is a ${widget.box.title} SnackBar!'),
                   behavior: SnackBarBehavior.floating,
                 ),
               );
