@@ -1,8 +1,3 @@
-# space_app
+# A Space like app
 
-A new Flutter project.
-
-## Getting Started
-
-This project is for learning purpose only.
-
+It's just for learning
